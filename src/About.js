@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Row } from 'reactstrap';
 import { Container } from 'reactstrap';
-import { Column } from 'reactstrap';
+import { Col } from 'reactstrap';
 
 class About extends Component {
   render() {
@@ -16,6 +16,8 @@ class About extends Component {
                     print, and publishing industries for previewing layouts and visual mockups.
                 </Col>
             </Row>
+            <br />
+            <br />
             <Row>
                 <Col>Lorem ipsum is placeholder text commonly used in the graphic, 
                     print, and publishing industries for previewing layouts and visual mockups.

@@ -10,17 +10,19 @@ import * as serviceWorker from './serviceWorker';
 const navi=(
     <Router>
         <div>
+        
             <ul>
-                <li><link to="/">Home</link></li>
-                <li><link to="/About">About</link></li>
-                <li><link to="/Layouts">Layouts</link></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/About">About</Link></li>
+                <li><Link to="/Layouts">Layouts</Link></li>
             </ul>
-        </div>
-        <div>
+        
             <Route exact path='/' component={Home} />
             <Route path='/About' component={About} />
             <Route path='/Layouts' component={Layouts} />
+        
         </div>
+        
     </Router>
 )
 
