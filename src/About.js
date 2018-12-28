@@ -1,11 +1,32 @@
 import React, { Component } from 'react';
+import { Row } from 'reactstrap';
+import { Container } from 'reactstrap';
+import { Column } from 'reactstrap';
 
 class About extends Component {
   render() {
     return (
-      <div>
-          <h1>About</h1>
-      </div>
+          <Container>
+          <Row>
+                <Col>Lorem ipsum is placeholder text commonly used in the graphic, 
+                    print, and publishing industries for previewing layouts and visual mockups.
+                    Lorem ipsum is placeholder text commonly used in the graphic, 
+                    print, and publishing industries for previewing layouts and visual mockups.
+                    Lorem ipsum is placeholder text commonly used in the graphic, 
+                    print, and publishing industries for previewing layouts and visual mockups.
+                </Col>
+            </Row>
+            <Row>
+                <Col>Lorem ipsum is placeholder text commonly used in the graphic, 
+                    print, and publishing industries for previewing layouts and visual mockups.
+                    Lorem ipsum is placeholder text commonly used in the graphic, 
+                    print, and publishing industries for previewing layouts and visual mockups.
+                </Col>
+                <Col>Lorem ipsum is placeholder text commonly used in the graphic, 
+                    print, and publishing industries for previewing layouts and visual mockups.
+                </Col>
+          </Row>
+      </Container>
     );
   }
 }
